@@ -11,6 +11,7 @@ Prepared by **Omnistu** with AI assistance. These are proposed review methods, n
 | [App handoff](#app-handoff) | A developer or AI-assisted build is being handed over | Fresh-clone run, deployment notes, access owner and restore result |
 | [Android edge-to-edge](#android-edge-to-edge) | Target-SDK changes may put content behind system bars | Build/OS/navigation-mode matrix and full-screen captures |
 | [CSV import acceptance](#csv-import-acceptance) | A bulk import can reject rows or be retried | Explicit atomic/partial contract, planned records and rejects |
+| [Restore rehearsal](restore-rehearsal-evidence.md) | A backup exists but recovery evidence is missing | Isolation checks, observed behavior, decision limits and cleanup |
 
 ## App handoff
 
@@ -23,6 +24,8 @@ A folder of source files is not a complete handoff. Use this review sequence:
 5. **Known gaps:** keep unfinished work, operational limits and support responsibilities explicit before sign-off.
 
 Background: [Omnistu's codebase handoff checklist](https://omnistu.com/blog/codebase-handoff-checklist/).
+
+For the data recovery step, use the [restore rehearsal evidence record](restore-rehearsal-evidence.md). It separates backup metadata from observed application behavior and keeps isolation, untested checks and cleanup explicit. It is a proposed worksheet, not a claim that any production system has been restored.
 
 ## Android edge-to-edge
 
