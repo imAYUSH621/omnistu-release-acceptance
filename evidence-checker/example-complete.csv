@@ -1,0 +1,3 @@
+case_id,check,expected,actual,status,owner,evidence,reason
+BOOT-01,Fresh setup,Starts from written instructions,Started locally,pass,Maintainer,evidence/setup.txt,
+RESTORE-02,Isolated restore,Restored copy opens,,not_run,Maintainer,,No isolated environment prepared
