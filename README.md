@@ -2,7 +2,7 @@
 
 Practical review prompts for app teams handing over software. Start with the system's promised behavior, record the conditions, then keep the observed evidence beside the decision.
 
-Prepared by **Omnistu** with AI assistance. These are proposed review methods, not reports of customer projects, independent audits or device tests. This repository contains documentation only, not the source code of an Omnistu product.
+Prepared by **Omnistu** with AI assistance. These are proposed review methods, not reports of customer projects, independent audits or device tests. This repository contains review documentation and a small local record-completeness checker, not the source code of an Omnistu product.
 
 ## Choose a worksheet
 
@@ -11,6 +11,7 @@ Prepared by **Omnistu** with AI assistance. These are proposed review methods, n
 | [App handoff](#app-handoff) | A developer or AI-assisted build is being handed over | Fresh-clone run, deployment notes, access owner and restore result |
 | [Android edge-to-edge](#android-edge-to-edge) | Target-SDK changes may put content behind system bars | Build/OS/navigation-mode matrix and full-screen captures |
 | [CSV import acceptance](#csv-import-acceptance) | A bulk import can reject rows or be retried | Explicit atomic/partial contract, planned records and rejects |
+| [Evidence record checker](evidence-checker/README.md) | A CSV says checks passed but evidence or owners may be missing | Local diagnostics, synthetic fixtures and regression tests |
 | [Restore rehearsal](restore-rehearsal-evidence.md) | A backup exists but recovery evidence is missing | Isolation checks, observed behavior, decision limits and cleanup |
 
 ## App handoff
