@@ -1,0 +1,2 @@
+case_id,check,expected,actual,status,owner,evidence,reason
+BOOT-01,Fresh setup,Starts from written instructions,Started locally,pass,Maintainer,,
